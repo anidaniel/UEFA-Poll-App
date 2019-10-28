@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ poll.name }}</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .container {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .jumbotron {
+            font-family: 'Montserrat', sans-serif;
+        }
+        footer {
+            display: block;
+        }
+    </style>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="index.html">Home</a></li>
+                    <li role="presentation"><a href="vote.html">Vote</a></li>
+                    <li role="presentation"><a href="results.html">Results</a></li>
+                </ul>
+            </nav>
+            <h1 class="text-muted"><b>UEFA POLL APP</b></h1>
+        </div>
+        <div class="jumbotron">
+            <h2>{{ poll.question }}</h2>
+            <p class="lead">Vote your option and see results.</p>
+            <a class="btn btn-success" href="vote.html" role="button">Vote</a>
+            <a class="btn btn-success" href="results.html" role="button">Results</a>
+        </div>
+        <footer class="footer">
+            <p> Served by {{hostname}}</p>
+            <p> Developer: Abdul Nabi</p>
+        </footer>
+    </div>
+</body>
+</html>

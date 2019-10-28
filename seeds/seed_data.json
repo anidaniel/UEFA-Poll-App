@@ -1,0 +1,15 @@
+{
+ "poll": "Champions League Winner",
+ "question": "Who will win the Champions League?",
+ "options": [ "Juventus",
+              "Milan",
+              "Inter",
+              "Barcelona",
+              "Real Madrid",
+              "Manchester City",
+              "Arsenal",
+              "Bayern Munich",
+              "Borussia Dortmund",
+              "Other team"
+            ]
+}
