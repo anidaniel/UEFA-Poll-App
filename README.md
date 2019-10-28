@@ -8,7 +8,7 @@ This application is intended for demo only.
 This application can be deployed locally. On linux, install git and clone the reposistory
 
     [root@legion]# apt install -y git
-    [root@legion]# git clone https://github.com/kalise/UEFA_pollApp_Migration
+    [root@legion]# git clone https://github.com/abdul12313/UEFA_pollApp_Migration
     [root@legion]# cd UEFA_pollApp_Migration
 
 Install the dependencies
