@@ -3,7 +3,7 @@ FROM python:2.7
 
 LABEL Version 1.0
 
-MAINTAINER abdul12313 <https://github.com/abdul12313/>
+MAINTAINER anidaniel <https://github.com/anidaniel/>
 
 # By default, the app uses an internal sqlite db
 # Use env variable to force an external SQL engine, e.g. MySQL
